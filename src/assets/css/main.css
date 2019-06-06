@@ -1,0 +1,17 @@
+/* This CSS is common to all elements */
+:root {
+	--font-family: 'Lato', 'Avenir', Helvetica, Arial, sans-serif;
+}
+
+* {
+	/* Sensible defaults to start everything */
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: var(--font-family);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
